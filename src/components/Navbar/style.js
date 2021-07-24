@@ -6,6 +6,8 @@ export const Header = styled.header`
   position: fixed;
   top: 0;
   height: 80px;
+  z-index: 1;
+  box-shadow: 0px 9px 25px #151722;
 `;
 export const Navbar = styled.nav`
   display: flex;
@@ -89,4 +91,22 @@ export const UserProfile = styled.img`
   height: 50px;
   border-radius: 50%;
   object-fit: cover;
+  cursor: pointer;
+`;
+
+export const UserLogOutBtn = styled.button`
+  position: absolute;
+  bottom: -40px;
+  right: 0px;
+  padding: 8px 25px;
+  border: 1px solid #626262;
+  background: #24262d;
+  color: white;
+  font-size: 15px;
+  cursor: pointer;
+  transition: all 0.2s;
+
+  &:hover {
+    background: #393c48;
+  }
 `;

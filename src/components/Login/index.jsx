@@ -3,6 +3,7 @@ import ctaSvGOne from "../../assets/images/cta-logo-one.svg";
 import ctaSvGTwo from "../../assets/images/cta-logo-two.png";
 
 export default function Login() {
+  console.log("login renderd");
   return (
     <s.Container>
       <s.Content>
