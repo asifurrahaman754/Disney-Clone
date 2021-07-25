@@ -1,5 +1,6 @@
 import * as s from "./style";
 import ImgSlider from "./home components/ImgSlider";
+import Viewers from "./home components/Viewers";
 
 export default function Home() {
   console.log("home renderd");
@@ -7,6 +8,7 @@ export default function Home() {
   return (
     <s.Section>
       <ImgSlider />
+      <Viewers />
     </s.Section>
   );
 }

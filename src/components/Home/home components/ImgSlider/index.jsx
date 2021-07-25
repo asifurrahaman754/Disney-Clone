@@ -18,20 +18,8 @@ export default function ImgSlider() {
     slidesToScroll: 1,
     autoplay: true,
     autoplaySpeed: 2000,
-    centerMode: false,
+    centerMode: true,
   };
-
-  //   useEffect(() => {
-  //     window.addEventListener("resize", () => {
-  //       if (window.innerWidth < 850) {
-  //         settings.centerMode = false;
-  //         console.log(settings.centerMode);
-  //       } else if (window.innerWidth >= 850) {
-  //         console.log(settings.centerMode);
-  //       }
-  //     });
-  //     console.log(settings.centerMode);
-  //   }, [settings.centerMode]);
 
   return (
     <s.SLiderContainer>

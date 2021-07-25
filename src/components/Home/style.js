@@ -1,9 +1,10 @@
 import styled from "styled-components";
 import homeBg from "../../assets/images/home-background.png";
 
-export const Section = styled.section`
+export const Section = styled.div`
   width: 100%;
-  height: 800px;
+  height: auto;
+  min-height: calc(100vh - 80px);
   background: url(${homeBg});
   background-position: center;
   background-color: black;
