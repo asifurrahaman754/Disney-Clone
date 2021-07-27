@@ -19,8 +19,7 @@ export default function Navbar() {
   const username = useSelector(state => state.user.name);
   const photoURL = useSelector(state => state.user.photo);
 
-  console.log("navbar renderd");
-
+  //if a user already exists then load the home component or show the login com.
   useEffect(() => {
     auth.onAuthStateChanged(user => {
       if (user) {
@@ -33,15 +32,20 @@ export default function Navbar() {
     });
   }, [username]);
 
+  //handle google popup auth when user clicks sign in
   const handleAuth = () => {
     auth
       .signInWithPopup(provider)
       .then(result => {
         storeUserAuth(result);
       })
-      .catch(err => alert(err));
+      .catch(err => {
+        alert(err);
+        return;
+      });
   };
 
+  //sends the user data to redux store
   const storeUserAuth = result => {
     dispatch(
       userLogin({
