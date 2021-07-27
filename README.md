@@ -1,3 +1,21 @@
+# Project live here - [live](https://disney-clone754.netlify.app/)
+# Main Technology used 
+  * HTML
+  * CSS
+    * [styled-components](https://styled-components.com/)
+  * Javascript
+    * [React](https://reactjs.org/)
+    * [Redux](https://redux.js.org/)
+    
+# Tools
+  * VS Code
+  * [firesbase](https://firebase.google.com/)
+  
+# Packages
+  * [react-icons](https://react-icons.github.io/react-icons/)
+  * [react-slick](https://react-slick.neostack.com/)
+  * [slick-carousel](https://kenwheeler.github.io/slick/)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
