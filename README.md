@@ -9,7 +9,7 @@
     
 # Tools
   * VS Code
-  * [firesbase](https://firebase.google.com/)
+  * [firebase](https://firebase.google.com/)
   
 # Packages
   * [react-icons](https://react-icons.github.io/react-icons/)
