@@ -1,4 +1,8 @@
 # Project live here - [live](https://disney-clone754.netlify.app/)
+
+[![disney.png](https://i.postimg.cc/BbpKzW7j/disney.png)](https://postimg.cc/y3JxJGHK)
+
+
 # Main Technology used 
   * HTML
   * CSS
